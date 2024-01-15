@@ -1,0 +1,35 @@
+
+a {
+	text-decoration: none;
+}
+
+.about-post-author-section {
+	background: #D8D8D8;
+	padding: 15px;
+	border: 1px solid #ccc;
+}
+ 
+.about-post-author-name {
+	font-size:24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.about-post-author-name a {
+	color: #000000;
+}
+
+.about-post-author-avatar img {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-post-author-details {
+	text-align: center;
+	color: #000000;
+}
+
+
