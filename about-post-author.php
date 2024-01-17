@@ -111,10 +111,10 @@ function about_post_author_settings_page() {
 			<form action="options.php" method="post">
 				<?php wp_nonce_field( 'update-options' ); ?>
 				<!-- Background Color -->
-				<label for="about-post-author-background-color" name="about-post-author-background-color"><?php print esc_attr( 'Background Color' ); ?></label>
+				<label for="about-post-author-background-color" name="about-post-author-background-color"><?php print esc_html__( 'Background Color', 'about-post-author' ); ?></label>
 				<input type="color" id="about-post-author-background-color" name="about-post-author-background-color" value="<?php echo esc_attr( get_option('about-post-author-background-color') ); ?>">
 				<!-- Text Color -->
-				<label for="about-post-author-text-color" name="about-post-author-text-color"><?php print esc_attr( 'Text Color' ); ?></label>
+				<label for="about-post-author-text-color" name="about-post-author-text-color"><?php print esc_html__( 'Text Color', 'about-post-author' ); ?></label>
 				<input type="color" id="about-post-author-text-color" name="about-post-author-text-color" value="<?php echo esc_attr( get_option('about-post-author-text-color') ); ?>">
 
 				<!-- input type -->
@@ -128,8 +128,8 @@ function about_post_author_settings_page() {
 			<div class="author-card">
 				<a class="link" href="https://profiles.wordpress.org/mehrazmorshed/" target="_blank">
 					<img class="center" src="<?php echo esc_url( plugin_dir_url( __FILE__ ) . 'assets/images/author.png' ); ?>" width="128px">
-					<h3 class="author-title"><?php print esc_attr( 'Mehraz Morshed' ); ?></h3>
-					<h4 class="author-title"><?php print esc_attr( 'WordPress Developer' ); ?></h4>
+					<h3 class="author-title"><?php echo esc_html__( 'Mehraz Morshed', 'about-post-author' ); ?></h3>
+					<h4 class="author-title"><?php echo esc_html__( 'WordPress Developer', 'about-post-author' ); ?></h4>
 				</a>
 				<h1 class="author-title">
 					<a class="link" href="https://www.facebook.com/mehrazmorshed" target="_blank"><span class="dashicons dashicons-facebook"></span></a>
@@ -141,19 +141,19 @@ function about_post_author_settings_page() {
 			<h3 class="aside-title"><?php print esc_attr( 'Other Useful Plugins' ); ?></h3>
 			<div class="author-card">
 				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/hide-titles'); ?>" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Titles'); ?></b>
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html__( 'Hide Titles', 'about-post-author' ); ?></b>
 				</a>
 				<hr>
 				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/turn-off-comments'); ?>" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Turn Off Comments'); ?></b>
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html__( 'Turn Off Comments', 'about-post-author' ); ?></b>
 				</a>
 				<hr>
 				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/hide-admin-navbar'); ?>" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Admin Navbar'); ?></b>
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html__( 'Hide Admin Navbar', 'about-post-author' ); ?></b>
 				</a>
 				<hr>
 				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/hide-thumbnails'); ?>" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Thumbnails'); ?></b>
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html__( 'Hide Thumbnails', 'about-post-author' ); ?></b>
 				</a>
 			</div>
 			<h3 class="aside-title"><?php print esc_attr( 'About Author Meta' ); ?></h3>
