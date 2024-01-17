@@ -141,19 +141,19 @@ function about_post_author_settings_page() {
 			<h3 class="aside-title"><?php print esc_attr( 'Other Useful Plugins' ); ?></h3>
 			<div class="author-card">
 				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/hide-titles'); ?>" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Titles); ?></b>
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Titles'); ?></b>
 				</a>
 				<hr>
 				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/turn-off-comments'); ?>" target="_blank">
 					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Turn Off Comments'); ?></b>
 				</a>
 				<hr>
-				<a class="link" href="https://wordpress.org/plugins/turn-off-comments" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b>Turn Off Comments</b>
-				</a>
-				<hr>
 				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/hide-admin-navbar'); ?>" target="_blank">
 					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Admin Navbar'); ?></b>
+				</a>
+				<hr>
+				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/hide-thumbnails'); ?>" target="_blank">
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Thumbnails'); ?></b>
 				</a>
 			</div>
 			<h3 class="aside-title"><?php print esc_attr( 'About Author Meta' ); ?></h3>
