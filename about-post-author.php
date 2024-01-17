@@ -140,8 +140,8 @@ function about_post_author_settings_page() {
 			</div>
 			<h3 class="aside-title"><?php print esc_attr( 'Other Useful Plugins' ); ?></h3>
 			<div class="author-card">
-				<a class="link" href="https://wordpress.org/plugins/tap-to-top" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b>Tap To Top</b>
+				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/hide-titles'); ?>" target="_blank">
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Titles); ?></b>
 				</a>
 				<hr>
 				<a class="link" href="https://wordpress.org/plugins/customized-login" target="_blank">
