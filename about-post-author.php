@@ -144,8 +144,8 @@ function about_post_author_settings_page() {
 					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Hide Titles); ?></b>
 				</a>
 				<hr>
-				<a class="link" href="https://wordpress.org/plugins/customized-login" target="_blank">
-					<span class="dashicons dashicons-admin-plugins"></span> <b>Custom Login Page</b>
+				<a class="link" href="<?php echo esc_url('https://wordpress.org/plugins/turn-off-comments'); ?>" target="_blank">
+					<span class="dashicons dashicons-admin-plugins"></span> <b><?php echo esc_html('Turn Off Comments'); ?></b>
 				</a>
 				<hr>
 				<a class="link" href="https://wordpress.org/plugins/turn-off-comments" target="_blank">
