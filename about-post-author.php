@@ -126,7 +126,7 @@ function about_post_author_settings_page() {
 		<div class="about-post-author-aside about-post-author-common">
 			<h2 class="aside-title"><?php echo esc_html__( 'Plugin Author Info', 'about-post-author' ); ?></h2>
 			<div class="author-card">
-				<a class="link" href="https://profiles.wordpress.org/mehrazmorshed/" target="_blank">
+				<a class="link" href="<?php echo esc_url('https://profiles.wordpress.org/mehrazmorshed/'); ?>" target="_blank">
 					<img class="center" src="<?php echo esc_url( plugin_dir_url( __FILE__ ) . 'assets/images/author.png' ); ?>" width="128px">
 					<h3 class="author-title"><?php echo esc_html__( 'Mehraz Morshed', 'about-post-author' ); ?></h3>
 					<h4 class="author-title"><?php echo esc_html__( 'WordPress Developer', 'about-post-author' ); ?></h4>
