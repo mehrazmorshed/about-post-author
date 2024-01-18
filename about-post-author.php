@@ -134,7 +134,7 @@ function about_post_author_settings_page() {
 				<h1 class="author-title">
 					<a class="link" href="<?php echo esc_url('https://www.facebook.com/mehrazmorshed/'); ?>" target="_blank"><span class="dashicons dashicons-facebook"></span></a>
 					<a class="link" href="<?php echo esc_url('https://twitter.com/mehrazmorshed/'); ?>" target="_blank"><span class="dashicons dashicons-twitter"></span></a>
-					<a class="link" href="https://www.linkedin.com/in/mehrazmorshed" target="_blank"><span class="dashicons dashicons-linkedin"></span></a>
+					<a class="link" href="<?php echo esc_url('https://www.linkedin.com/in/mehrazmorshed/'); ?>" target="_blank"><span class="dashicons dashicons-linkedin"></span></a>
 					<a class="link" href="https://www.youtube.com/@mehrazmorshed" target="_blank"><span class="dashicons dashicons-youtube"></span></a>
 				</h1>
 			</div>
