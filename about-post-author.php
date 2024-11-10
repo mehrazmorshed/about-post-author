@@ -231,6 +231,7 @@ add_action( 'wp_head', 'about_post_author_update_style' );
 function about_post_author_user_profile_fields($user) {
     ?>
     <h3><?php esc_html_e('Social Media Links', 'about-post-author'); ?></h3>
+    <small><?php esc_html_e('will be displayed in Author Box', 'about-post-author'); ?></small>
     
     <table class="form-table">
         <tr>
