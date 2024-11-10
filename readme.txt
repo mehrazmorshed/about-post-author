@@ -3,7 +3,7 @@ Contributors: mehrazmorshed
 Donate link: https://www.buymeacoffee.com/mehrazmorshed
 Tags: author box, simple author box, smart author box, author meta box, about author box
 Requires at least: 4.4
-Tested up to: 6.5
+Tested up to: 6.6
 Stable tag: 1.2
 Requires PHP: 7.0
 License: GPLv2 or later

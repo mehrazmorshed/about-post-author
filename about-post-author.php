@@ -2,7 +2,7 @@
 
 /*
  * Plugin Name:       Author Box
- * Plugin URI:        https://wordpress.org/plugins/about-post-author/
+ * Plugin URI:        https://mehrazmorshed.com/
  * Description:       Display a box About Post Author with author name, avatar and description after each blog post.
  * Version:           1.2
  * Tested Up to:      6.6
