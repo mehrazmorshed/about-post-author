@@ -1,0 +1,49 @@
+.about-post-author-tabs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-post-author-tabs ul li {
+    margin-right: 10px;
+}
+
+.about-post-author-tabs ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px 5px 0 0;
+    background: #f1f1f1;
+    color: #555;
+}
+
+.about-post-author-tabs ul li.active a {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    color: #000;
+}
+
+.about-post-author-tab-content {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-top: -1px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#about-post-author-preview-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #f9f9f9;
+}

@@ -1,11 +1,11 @@
-=== About Post Author ===
+=== Author Box - Blog Post Author Info Box, Simple About Post Author ===
 Contributors: mehrazmorshed
 Donate link: https://www.buymeacoffee.com/mehrazmorshed
-Tags: author-box, simple-author-box, smart-author-box, author-meta-box, about-author-box, simple-author-section, smart-author-section, author-meta-section, about-author-section,
-Requires at least: 5.2
-Tested up to: 6.3
-Stable tag: 1.0
-Requires PHP: 7.2
+Tags: author box, simple author box, smart author box, author meta box, about author box
+Requires at least: 4.4
+Tested up to: 6.5
+Stable tag: 1.2
+Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,7 +67,18 @@ Just deactivate the plugin.
 
 == Changelog ==
 
+= 1.2 =
+*Release Date - 9 November 2024*
+* New feature
+* Compatibility
+* New UI/UX
+
+= 1.1 =
+*Release Date - 5 February 2024*
+
+* Routine maintenance
+
 = 1.0 =
-*Release Date - 20 August 2023*
+*Release Date - 22 January 2024*
 
 * Initial release.

@@ -1,0 +1,61 @@
+.about-post-author-section {
+    background: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.author-avatar img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.author-details h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.author-details p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-media-icons {
+    margin-top: 10px;
+}
+
+.social-media-icons .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-icons .social-icon img {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+    transition: transform 0.3s;
+}
+
+.social-media-icons .social-icon img:hover {
+    transform: scale(1.1); /* Add hover effect */
+}
